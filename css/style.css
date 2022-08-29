@@ -24,6 +24,7 @@ body{
 .logo{
     color:#F9FAF8;
     font-size: 24px;
+    font-weight: bold;
 }
 .header-links{
     display: flex;
@@ -52,6 +53,7 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
+    background-size: 300px;
 }
 .content-text{
     background: #1F2937;
