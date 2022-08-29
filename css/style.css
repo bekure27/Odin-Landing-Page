@@ -108,13 +108,36 @@ body{
 }
 
 
-
-
+/* quote content style  */
 
 .quote{
-    background: aqua;
-    height: 200px;
+    background:#E5E7EB;
+    /* height: 200px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
 }
+.quote p{
+    width: 500px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+.quote span{
+    margin-left: 350px;
+    font-weight:bold;
+    margin-top: 15px;
+}
+
+
+
+
+
+
 .signup{
     height: 200px;
     background-color: blueviolet;
