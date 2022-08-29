@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+.header{
+    background:#1F2937;
+    display: flex;
+    color:#FFFFFF;
+    justify-content: space-around;
+}
+.header-links{
+    display: flex;
+    list-style: none;
+    gap:15px;
+}
+.header-links a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.top-content{
+    background-color: blue;
+    height: 300px;
+}
+.random-info{
+    background: brown;
+    height: 350px;
+}
+.quote{
+    background: aqua;
+    height: 200px;
+}
+.signup{
+    height: 200px;
+    background-color: blueviolet;
+}
+.fotter{
+    height: 100px;
+    background-color: chartreuse;
+}
