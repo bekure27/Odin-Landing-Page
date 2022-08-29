@@ -66,7 +66,7 @@ body{
     font-size: 36px;
     font-weight: 900;
 }
-.signup-btn{
+.signup-btn {
   background: #3882F6;
   border: 1px solid #3882F6;
   color: white;
@@ -133,6 +133,7 @@ body{
     margin-top: 15px;
 }
 
+ /* sing up style  */
 
 .signup{
     background-color:#FFFFFF;
@@ -148,8 +149,8 @@ body{
     display: flex;
     background:#3B82F6;
     justify-content: space-between;
-    width: 70%;
-    padding: 30px 110px 30px 110px;
+    width: 60%;
+    padding: 30px 90px 30px 90px;
     border-radius: 8px;
 }
 .signup-sub-container .text{
@@ -165,10 +166,16 @@ body{
 
 
 
-
-
-
-.fotter{
-    height: 100px;
-    background-color: chartreuse;
+.footer{
+    /* height: 100px; */
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer p {
+    color: #FFFFFF;
+    font-size: small;
 }
